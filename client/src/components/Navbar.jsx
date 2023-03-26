@@ -15,7 +15,7 @@ function Navbar() {
           to="/"
           className="text-white text-2xl w-full pt-2 h-fit flex justify-start items-center py-2 ml-24 font-bold"
         >
-          WarraBlock
+          TrustChain
         </NavLink>
         {account.currentAccount == null ? (
           <div
