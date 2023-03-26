@@ -120,7 +120,7 @@
 //             className="text-white text-2xl border-b-2 p-4 w-full h-fit flex justify-center items-center font-bold"
 //             //style={{ backgroundColor: '#609966' }}
 //           >
-//             WarraBlock
+//             TrustChain
 //           </NavLink>
 //           <NavLink
             
@@ -420,6 +420,7 @@ function ExpiredWarranty(props) {
   );
 }
 
+
 function Seller() {
   const { connectWallet, account, Contract, sellerI } = useContext(Web3Context);
   const { add } = useParams();
@@ -445,7 +446,7 @@ function Seller() {
             to="/"
             className="text-white text-2xl border-b-2 p-4 w-full h-fit flex justify-center items-center font-bold"
           >
-            WarraBlock
+            TrustChain
           </NavLink>
           <NavLink
             to={`/createnft/${account.currentAccount}`}
@@ -513,7 +514,7 @@ function Seller() {
                       tokenId,
                     } = obj;
                     // console.log(tokenURI.replace("ipfs://", "https://ipfs.io/ipfs/"))
-                    
+
                     return (
                       <PendingWarranty
                         img={imageURI}

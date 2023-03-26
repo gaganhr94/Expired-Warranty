@@ -117,7 +117,7 @@ function Seller() {
             to="/"
             className="text-white text-2xl border-b-2 p-4 w-full h-fit flex justify-center items-center font-bold"
           >
-            WarraBlock
+            TrustChain
           </NavLink>
 
           <Navbutton link="#active" content="Active Warranties" />
