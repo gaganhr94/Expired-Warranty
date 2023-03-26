@@ -122,7 +122,7 @@ function CreateNFT() {
             to="/"
             className="text-white font-bold text-2xl w-full pt-2 pl-2 h-fit flex justify-center items-center"
           >
-            WarraBlock
+            TrustChain
           </NavLink>
         </div>
         <div
